@@ -1,0 +1,143 @@
+.loginlogo{ 
+    width: 200px;
+    line-height: 110px;   
+    margin-left: 60px;
+}
+.Loginblend{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/d6aeb5a9-b14c-42d4-999e-c2f0d6c60f04/IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: white;
+    margin-top: 180px;
+}
+.h2{
+    margin-left: 10px;
+    color: white;
+    font-size: 1.5rem;
+ margin-bottom: 20px;
+}
+.h3{
+    font-size: 1.5rem;
+    color: white;
+}
+.gmail{
+    width: 381px;
+    height: 56px;
+    background-color:transparent;
+    backdrop-filter: blur(3px);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+}
+.gohome{
+    height: 60px;
+    width: 230px;
+    margin: 7px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    border-radius: none;
+}
+.gmail-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.select{
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-right: 8px;
+ 
+}
+
+option{
+    background-color: rgb(237, 237, 238);
+    color: #000;
+    width: 130px;
+    border-radius: 5px;
+}
+.back{
+    background-color: red;
+    color:white;
+    /* margin-right: 130px; */
+    /* margin-left: 30px;    */
+    height: 37px;
+}
+.bar-rightside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+   
+}
+.select-wrapper{
+    border: 1px solid white;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:952px){
+.Loginblend{
+    width: 500px;
+}
+.back{
+    background-color: red;
+    color:white;
+    margin-right: 130px;
+    margin-left: 30px;
+    height: 37px;
+    width: 100px;
+}
+.nav{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.loginlogo{ 
+    width: 200px;
+    /* line-height: 110px;    */
+    /* margin-left: 60px; */
+    margin-left: 0;
+    /* border: 1px solid white; */
+}
+h1{
+    color: white;
+    /* margin-top: 180px;    */
+    top:0
+}
+.h3{
+    font-size: 1.5rem;
+    color: white;
+    width: 97%;
+}
+.h2{
+    /* margin-left: 10px; */
+    color: white;
+    font-size: 1.5rem;
+ margin-bottom: 20px;
+}
+.gmail-button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+}
