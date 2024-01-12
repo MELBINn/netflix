@@ -8,7 +8,7 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
  
-
+//get url from home component
 function Movies({title,url}) {
 
     const [movie, setmovie] = useState()

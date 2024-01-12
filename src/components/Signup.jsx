@@ -7,7 +7,7 @@ function Signup(props) {
 
 
     const nameRef=useRef()
-    const passRef=useRef()
+    const passRef=useRef()//access the instance directly
     const navigate=useNavigate()
 
     function submit(){
