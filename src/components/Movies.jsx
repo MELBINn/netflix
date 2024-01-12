@@ -28,20 +28,7 @@ const Listref=useRef()
     }, [])
 
 
-    // const handleClick=(direction)=>{
-    //     setIsMoved(true);
-    //     console.log(slideNumber);
-    //     if (direction === "left" && slideNumber >= -1) {
-    //         let distance = Listref.current.getBoundingClientRect().x + 50;
-    //       setSlideNumber((slideNumber)=>(slideNumber - 1));
-    //       Listref.current.style.transform = `translateX(${230 + distance}px)`;
-    //     }
-    //     if (direction === "right" && slideNumber < 14) {
-    //     let distance = Listref.current.getBoundingClientRect().x - 50;
-    //       setSlideNumber((slideNumber)=>(slideNumber + 1));
-    //       Listref.current.style.transform = `translateX(${-230 + distance}px)`;
-    //     }
-    // }
+  
     return (
         
             <div className="cards" >
