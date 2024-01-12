@@ -7,7 +7,7 @@ import { useEffect,useState } from 'react';
 
 
 function Banner() {
-
+ //set usestate
     const [banner,setbanner]=useState({})
 
   async function bannercalling(){
