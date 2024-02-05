@@ -3,9 +3,8 @@ import '../Signup.css'
 import {Link,useNavigate} from 'react-router-dom'
 import { useState,useRef } from 'react'
 
+//fun for signup
 function Signup(props) {
-
-
     const nameRef=useRef()
     const passRef=useRef()//access the instance directly
     const navigate=useNavigate()
